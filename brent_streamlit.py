@@ -115,7 +115,7 @@ with tab2:
    
    import joblib
    from joblib import load
-   model = joblib.load(' /mount/src/oil_brent/brent.joblib')
+   model = joblib.load('/mount/src/oil_brent/brent.joblib')
 
    # Model Testing
    prediction_set = []
