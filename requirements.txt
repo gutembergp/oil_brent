@@ -1,0 +1,11 @@
+pandas 
+streamlit
+numpy
+matplotlib
+xlsxwriter
+lxml
+statsmodels
+pmdarima
+scikit-learn
+tensorflow==2.15.0
+joblib
