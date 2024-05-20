@@ -190,5 +190,6 @@ with tab3:
    df_comp.index = pd.to_datetime(df_comp.index, format = '%d/%m/%Y').strftime('%d/%m/%Y')
    st.write(df_comp)
 
-   st.write('O método LSTM utiliza mais recursos computacionais mas não tem um impacto muito grande no processamento desse volume de dados')
-   st.write('Portando os dois métodos podem ser considerados para o Forecast do Valor do Oil Brent')
+   st.write('O método LSTM utiliza mais recursos computacionais mas não tem um impacto muito grande no processamento desse volume de dados e para esse modelo tem MAPE maior')
+   st.write('Se a variação diária de preço estiver oscilando pouco a utilização do método SARIMA é mais recomendada')
+   st.write('Caso a variação estja oscilando de forma mais acentuda, é recomendado a utilização do métido LSTM')
